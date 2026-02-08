@@ -1,0 +1,61 @@
+BatchID,ProductionDate,Shift,Temperature_C,Pressure_PSI,Humidity_pct,DefectCount,PassRate_pct,Notes
+B-001,2025-01-03,A,68.5,112.4,41.2,2,98.0,Baseline calibration run
+B-002,2025-01-03,B,69.1,111.8,42.5,1,99.2,Normal variance within tolerance
+B-003,2025-01-04,C,71.3,115.6,39.8,4,94.5,Slight uptick in defects after filter swap
+B-004,2025-01-04,A,70.4,113.2,40.1,0,100.0,All sensors nominal
+B-005,2025-01-05,B,72.0,114.7,38.9,3,96.8,Operator noted brief vibration
+B-006,2025-01-05,C,69.7,112.9,43.5,1,99.0,Humidity higher than target
+B-007,2025-01-06,A,68.9,111.5,41.8,0,100.0,Reference lot for client audit
+B-008,2025-01-06,B,70.1,113.7,40.6,2,97.5,Thermocouple recalibrated mid-shift
+B-009,2025-01-07,C,73.2,116.8,37.9,5,93.6,Triggered maintenance alert
+B-010,2025-01-07,A,71.0,114.2,39.4,1,99.1,Post-maintenance validation lot
+B-011,2025-01-08,B,69.5,112.3,42.0,0,100.0,Line running optimally
+B-012,2025-01-08,C,68.7,111.9,43.1,1,99.4,Humidity adjusted downward
+B-013,2025-01-09,A,70.8,113.9,41.0,2,97.9,Minor conveyor jitter observed
+B-014,2025-01-09,B,72.6,115.2,39.2,3,96.2,Operator training in progress
+B-015,2025-01-10,C,73.9,117.1,37.4,6,92.8,Investigation opened for high defects
+B-016,2025-01-10,A,70.0,113.0,40.3,1,99.5,Adjusted cooling cycle
+B-017,2025-01-11,B,69.2,112.6,41.7,0,100.0,Calibration confirmation lot
+B-018,2025-01-11,C,71.5,114.9,39.9,2,97.6,Temp trending upward
+B-019,2025-01-12,A,72.8,115.5,38.7,3,96.0,Additional cooling fans scheduled
+B-020,2025-01-12,B,68.8,111.6,42.9,1,99.3,Humidity control stabilized
+B-021,2025-01-13,C,67.9,110.8,44.2,0,100.0,Environment near lower temp bound
+B-022,2025-01-13,A,69.6,112.7,41.5,2,98.1,Minor tooling wear detected
+B-023,2025-01-14,B,71.8,114.5,39.6,4,95.0,Tooling replaced after run
+B-024,2025-01-14,C,70.9,113.8,40.2,1,99.2,Post-replacement verification
+B-025,2025-01-15,A,69.0,112.1,42.4,0,100.0,Production resumed normal pace
+B-026,2025-01-15,B,70.3,113.4,40.7,1,99.1,Line speed increased 5%
+B-027,2025-01-16,C,74.1,117.5,37.1,7,91.5,Exceeds defect threshold, flagged
+B-028,2025-01-16,A,71.2,114.3,39.8,2,97.8,Root cause tracing ongoing
+B-029,2025-01-17,B,69.4,112.5,41.9,0,100.0,Stability restored
+B-030,2025-01-17,C,68.6,111.7,43.0,1,99.6,Humidity back within 2% tolerance
+B-031,2025-01-18,A,70.5,113.6,40.5,2,98.2,Additional QA sampling
+B-032,2025-01-18,B,72.3,115.0,38.8,3,96.4,Shift overlap training
+B-033,2025-01-19,C,73.4,116.6,37.6,4,94.8,Pre-maintenance drift
+B-034,2025-01-19,A,70.2,113.2,40.9,1,99.7,Process reset performed
+B-035,2025-01-20,B,69.1,112.2,41.6,0,100.0,Client witness batch
+B-036,2025-01-20,C,71.7,114.8,39.5,2,97.3,Slight acoustic anomaly logged
+B-037,2025-01-21,A,72.5,115.4,38.6,3,95.9,Preparing firmware update
+B-038,2025-01-21,B,68.4,111.3,43.3,1,99.5,Firmware applied mid shift
+B-039,2025-01-22,C,67.8,110.9,44.0,0,100.0,Firmware verified
+B-040,2025-01-22,A,70.6,113.5,40.4,2,98.4,Energy usage nominal
+B-041,2025-01-23,B,71.9,114.6,39.1,3,96.3,Support bearings replaced
+B-042,2025-01-23,C,73.0,116.1,37.8,4,94.6,Monitoring wear-in period
+B-043,2025-01-24,A,69.8,112.8,41.4,1,99.4,Performance stabilizing
+B-044,2025-01-24,B,70.7,113.9,40.8,1,99.0,Additional QA spot checks
+B-045,2025-01-25,C,72.9,116.0,38.0,3,96.1,QA signed off on tooling change
+B-046,2025-01-25,A,69.9,112.9,41.1,0,100.0,Shift A training complete
+B-047,2025-01-26,B,68.3,111.2,43.4,1,99.4,Ambient humidity high outside
+B-048,2025-01-26,C,71.4,114.4,39.7,2,97.7,Air handling adjusted
+B-049,2025-01-27,A,72.7,115.8,38.3,3,96.0,Minor deviation accepted
+B-050,2025-01-27,B,70.0,113.1,40.6,1,99.3,QA double-check complete
+B-051,2025-01-28,C,73.6,117.0,37.5,5,93.9,Variance attributed to new supplier
+B-052,2025-01-28,A,71.1,114.1,39.9,1,99.2,Return to baseline expected
+B-053,2025-01-29,B,69.3,112.4,42.2,0,100.0,Reference lot archived
+B-054,2025-01-29,C,68.2,111.1,43.8,1,99.7,Monitors recalibrated
+B-055,2025-01-30,A,70.4,113.3,40.2,1,99.6,Scheduled audit passed
+B-056,2025-01-30,B,72.2,115.3,38.5,2,97.0,Audit recommendations applied
+B-057,2025-01-31,C,74.3,117.9,36.9,6,92.5,Pre-shutdown anomaly noted
+B-058,2025-01-31,A,71.6,114.7,39.3,2,98.0,Shutdown maintenance underway
+B-059,2025-02-01,B,69.7,112.6,41.3,0,100.0,Restart verification lot
+B-060,2025-02-01,C,70.9,113.8,40.0,1,99.1,Full production resumed
